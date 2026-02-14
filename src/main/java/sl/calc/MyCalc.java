@@ -23,7 +23,11 @@ public class MyCalc {
 	}
 	public void show()
 	{
-		System.out.println("Hello Jenkins");
+		System.out.println("Hello Jenkins. Welcome to DevOps Class !");
+	}
+	public void greeting()
+	{
+		System.out.println("Hello Jenkins from Master Branch");
 	}
 
 	public static void main(String[] args) {
@@ -34,6 +38,7 @@ public class MyCalc {
 		System.out.println("Div is "+ calc.div(20, 10));
 		System.out.println("Mod is "+ calc.mod(20, 10));
 		calc.show();
+		calc.greeting();
 
 	}
 
